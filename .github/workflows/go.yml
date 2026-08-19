@@ -60,4 +60,4 @@ jobs:
          cache: false
          
       # Используется действие "golangci/golangci-lint-action@v3", которое запускает линтер. Он проверит код на соответствие стилю и отсутствие логических ошибок
-      - uses: golangci/golangci-lint-action@v7
+      - uses: golangci/golangci-lint-action@v9
